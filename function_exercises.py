@@ -177,7 +177,7 @@ def normalize_name(s):
         if character.isidentifier() or character == ' ': #inside for loop. processing character
             valid_identifier.append(character) #adding character to list
      #convert valid identifier back to a string
-     valid_identifier = "".join(valid_identifier)
+ #    valid_identifier = "".join(valid_identifier)
      #remove whitespace before and after
      valid_identifier = valid_identifier.strip()
      #lowercase all characters
