@@ -233,4 +233,4 @@ twelveto24("04:45 pm") #'16:45 pm'
     # col_index('A') returns 1
     # col_index('B') returns 2
     # col_index('AA') returns 27
-def col_index(colname)
+# def col_index(colname)
