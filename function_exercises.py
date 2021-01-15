@@ -179,11 +179,11 @@ def normalize_name(s):
      #convert valid identifier back to a string
  #    valid_identifier = "".join(valid_identifier)
      #remove whitespace before and after
-     valid_identifier = valid_identifier.strip()
+ #    valid_identifier = valid_identifier.strip()
      #lowercase all characters
-     valid_identifier = valid_identifier.lower()
+ #    valid_identifier = valid_identifier.lower()
      #replace spaces with underscores
-     valid_identifier = valid_identifier.replace(" ", "_")   
+ #    valid_identifier = valid_identifier.replace(" ", "_")   
 
 #11. Write a function named cumulative_sum that accepts a list of numbers and returns a list that is the cumulative sum of the numbers in the list.
     # cumulative_sum([1, 1, 1]) returns [1, 2, 3]
